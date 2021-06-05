@@ -1,7 +1,10 @@
+import spinner from '../img/spinner.gif'
+
 const Loader = () => {
     return(
-        <div>
-
+        <div className='loader'>
+            <img src={spinner} alt='Loading' />
+            <h1>Loading Data...</h1>
         </div>
     )
 }

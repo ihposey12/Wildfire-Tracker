@@ -16,6 +16,7 @@ const App = () => {
       setEventData(events)
       setLoading(false)
     }
+    fetchEvents()
   }, [])
   return (
     <div className="app">
